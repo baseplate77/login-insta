@@ -27,7 +27,7 @@ import {
   const ig = new IgApiClient();
   try {
     ig.state.generateDevice(credentials.username);
-    ig.state.proxyUrl = "http://206.189.135.6:3128";
+    // ig.state.proxyUrl = "http://206.189.135.6:3128";
 
     await ig.simulate.preLoginFlow();
     console.log("pre login");
